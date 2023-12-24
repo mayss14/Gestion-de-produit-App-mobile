@@ -31,11 +31,12 @@ class _ListProdState extends State<ListProd> {
   Widget build(BuildContext context) {
     /*
     firestore.collection('prods').add({
-      'Marque': 'Samsung',
+      'Marque': 'Iphone',
       'categorie': 'Smartphone',
-      'designation': 'Galaxy S21',
-      'photo': 'https://www.samsung.com/fr/smartphones/galaxy-s21-5g/',
-      'prix': 859,
+      'designation': '14 pro',
+      'photo':
+          'https://images.unsplash.com/photo-1680776785024-5223d7a75ea8?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'prix': 18590.05,
       'quantite': 10
     });*/
 

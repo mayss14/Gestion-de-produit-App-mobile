@@ -72,7 +72,7 @@ class ProduitDetails extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          p.Marque,
+                          p.Marque + " " + p.designation,
                           style: TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.bold,
@@ -93,15 +93,15 @@ class ProduitDetails extends StatelessWidget {
                           p.designation +
                           ", le smartphone qui allie élégance et performances exceptionnelles. Doté d'un design raffiné, ce bijou technologique offre une expérience utilisateur incomparable",
                       style: TextStyle(
-                          fontSize: 17,
+                          fontSize: 13,
                           color: Colors.grey,
-                          fontWeight: FontWeight.w200),
+                          fontWeight: FontWeight.w500),
                     ),
                     Visibility(
                       visible: auth.currentUser!.uid !=
                           "xCGOjKsrGIemleqkm0WdOBeAIY43",
                       child: Container(
-                        margin: EdgeInsets.only(top: 30, left: 70),
+                        margin: EdgeInsets.only(top: 30, left: 40),
                         child: SizedBox(
                           width: 250,
                           child: ElevatedButton(
